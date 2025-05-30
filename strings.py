@@ -35,7 +35,7 @@ else:
 # Using slicing
 str = "madam" # racecar, abba
 
-if str == str[::-1]: # 's[::-1]' reverses the string and compares it to the original
+if str == str[::-1]: # 's[::-1]'(regular expression) reverses the string and compares it to the original
     print("Yes")
 else:
     print("No")  
