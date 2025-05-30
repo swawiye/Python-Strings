@@ -4,7 +4,7 @@ numberOfWords = len(sentence.split()) # "split" counts the number of words in th
 print(f"The number of words in the sentence are: {numberOfWords}")
 
 # 2. Checking if two strings are anagrams of each other
-# Anagram -a word, phrase, or name formed by rearranging the letters of another; ex listen and silent
+# Anagram -a word, phrase, or name formed by rearranging the letters of another; ex listen and silent, quite and quiet
 # Using sorted
 str1 = "listen"
 str2 = "silent"
@@ -47,3 +47,7 @@ else:
 #        if str[1] != str[lastIndex-1]:
 #            return False
 #    return True
+
+# Count the occurences of a letter in a word
+def count_letter(word, letter):
+    return word.lower
