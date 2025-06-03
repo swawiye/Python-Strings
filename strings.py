@@ -48,6 +48,14 @@ else:
 #            return False
 #    return True
 
-# Count the occurences of a letter in a word
+# Count the occurrences of a letter in a word
 def count_letter(word, letter):
-    return word.lower
+    return word.lower().count(letter.lower())
+
+# Counting the number of times a letter appears in a string
+# Prompts the user for a word and a letter to count
+word = input("Enter a word: ")
+letter = input("Enter a letter to count: ")
+
+# Count the occurrences of the letter in the word and display the result
+print(f"The letter '{letter}' appears {count_letter(word, letter)} times in '{word}'.")
